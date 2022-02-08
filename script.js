@@ -35,16 +35,12 @@ window.onclick = function(){
         alert(error + '\r\n\ Отклонено. Страница будет обновлена.')
         location.reload();
     })
-
 }
-
-
 
 function loop(){
     window.requestAnimationFrame(loop);
     analyser.getByteFrequencyData(array);
-   
-    
+       
     for(let i = 0 ; i <= num ; i++){
         height = array[i + num];
         myElements[i].style.minHeight = height + 'px';
