@@ -1,0 +1,21 @@
+body {
+    margin: 0%;
+    background-color: #141423;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 1px;
+    border-radius: 3px;
+
+}
+
+h1 {
+    color: whitesmoke;
+    cursor: pointer;
+    font-style: italic;
+}
